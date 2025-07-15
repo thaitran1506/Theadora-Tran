@@ -61,8 +61,8 @@ const PhotoGallery: React.FC<PhotoGalleryProps> = ({ photos }) => {
 
   return (
     <div className="relative">
-      {/* Scroll indicator - moved higher up */}
-      <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 z-10">
+      {/* Scroll indicator - moved even higher up */}
+      <div className="absolute -top-16 left-1/2 transform -translate-x-1/2 z-10 md:-top-20">
         <div className="bg-white/90 backdrop-blur-sm rounded-full px-4 py-2 shadow-lg border border-gray-200">
           <p className="text-sm text-gray-600 font-medium">
             Scroll to explore Thea's journey →
