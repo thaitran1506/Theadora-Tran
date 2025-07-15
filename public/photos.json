@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "image": "/images/IMG_8797.JPG",
+    "title": "First Day Home",
+    "date": "2024-01-15",
+    "description": "Thea's first day home from the hospital. So tiny and perfect!"
+  },
+  {
+    "id": 2,
+    "image": "/images/IMG_8820.JPG",
+    "title": "Sweet Dreams",
+    "date": "2024-01-18",
+    "description": "Sleeping peacefully in her crib. She looks like an angel."
+  },
+  {
+    "id": 3,
+    "image": "/images/IMG_8839.JPG",
+    "title": "First Smile",
+    "date": "2024-01-22",
+    "description": "Caught her first real smile! My heart melted instantly."
+  },
+  {
+    "id": 4,
+    "image": "/images/IMG_8846.JPG",
+    "title": "Tummy Time",
+    "date": "2024-01-25",
+    "description": "Working on those neck muscles during tummy time."
+  },
+  {
+    "id": 5,
+    "image": "/images/IMG_8862.JPG",
+    "title": "Bath Time",
+    "date": "2024-01-28",
+    "description": "Her first real bath! She loved the warm water."
+  },
+  {
+    "id": 6,
+    "image": "/images/IMG_8866.JPG",
+    "title": "Morning Cuddles",
+    "date": "2024-02-01",
+    "description": "Best way to start the day - cuddles with Thea."
+  },
+  {
+    "id": 7,
+    "image": "/images/IMG_8885.JPG",
+    "title": "First Outfit",
+    "date": "2024-02-05",
+    "description": "Dressed up in her first cute outfit. So stylish already!"
+  },
+  {
+    "id": 8,
+    "image": "/images/IMG_8920.JPG",
+    "title": "Story Time",
+    "date": "2024-02-10",
+    "description": "Reading her first book together. She's so attentive."
+  },
+  {
+    "id": 9,
+    "image": "/images/IMG_8934.JPG",
+    "title": "Playtime",
+    "date": "2024-02-15",
+    "description": "Playing with her first toys. Everything goes in the mouth!"
+  },
+  {
+    "id": 10,
+    "image": "/images/IMG_8937.JPG",
+    "title": "Family Photo",
+    "date": "2024-02-20",
+    "description": "Our first family photo together. Pure happiness."
+  },
+  {
+    "id": 11,
+    "image": "/images/IMG_8939.JPG",
+    "title": "Giggles",
+    "date": "2024-02-25",
+    "description": "Heard her first giggle today! The sweetest sound ever."
+  },
+  {
+    "id": 12,
+    "image": "/images/IMG_8945.JPG",
+    "title": "Outdoor Adventure",
+    "date": "2024-03-01",
+    "description": "First time outside in the fresh air. She loved it!"
+  },
+  {
+    "id": 13,
+    "image": "/images/IMG_8955.JPG",
+    "title": "Rolling Over",
+    "date": "2024-03-05",
+    "description": "She rolled over for the first time! Such a big milestone."
+  },
+  {
+    "id": 14,
+    "image": "/images/IMG_8960.JPG",
+    "title": "Teething",
+    "date": "2024-03-10",
+    "description": "First signs of teething. Everything is a chew toy now!"
+  },
+  {
+    "id": 15,
+    "image": "/images/IMG_8969.JPG",
+    "title": "Sitting Up",
+    "date": "2024-03-15",
+    "description": "Learning to sit up on her own. She's getting so strong!"
+  },
+  {
+    "id": 16,
+    "image": "/images/IMG_8982.JPG",
+    "title": "First Foods",
+    "date": "2024-03-20",
+    "description": "Trying her first solid foods. Messy but adorable!"
+  },
+  {
+    "id": 17,
+    "image": "/images/IMG_8988.JPG",
+    "title": "Crawling",
+    "date": "2024-03-25",
+    "description": "She's on the move! Crawling everywhere now."
+  },
+  {
+    "id": 18,
+    "image": "/images/IMG_8995.JPG",
+    "title": "Standing",
+    "date": "2024-04-01",
+    "description": "Pulling herself up to stand. Walking is next!"
+  },
+  {
+    "id": 19,
+    "image": "/images/IMG_9003.JPG",
+    "title": "First Steps",
+    "date": "2024-04-05",
+    "description": "She took her first steps! I'm so proud of my little walker."
+  },
+  {
+    "id": 20,
+    "image": "/images/IMG_9011.JPG",
+    "title": "Exploring",
+    "date": "2024-04-10",
+    "description": "Exploring the world on her own two feet. So independent!"
+  },
+  {
+    "id": 21,
+    "image": "/images/IMG_9014.JPG",
+    "title": "Dancing",
+    "date": "2024-04-15",
+    "description": "She loves to dance to music. Such a happy little girl!"
+  },
+  {
+    "id": 22,
+    "image": "/images/IMG_9022.JPG",
+    "title": "Reading",
+    "date": "2024-04-20",
+    "description": "She's starting to turn pages herself. Future bookworm!"
+  },
+  {
+    "id": 23,
+    "image": "/images/IMG_9033.JPG",
+    "title": "Art Time",
+    "date": "2024-04-25",
+    "description": "First time with crayons. Creative expression begins!"
+  },
+  {
+    "id": 24,
+    "image": "/images/IMG_9043.JPG",
+    "title": "Park Day",
+    "date": "2024-05-01",
+    "description": "First trip to the park. She loved the swings!"
+  },
+  {
+    "id": 25,
+    "image": "/images/IMG_9048.JPG",
+    "title": "Water Play",
+    "date": "2024-05-05",
+    "description": "Splashing in the water table. Summer fun begins!"
+  },
+  {
+    "id": 26,
+    "image": "/images/IMG_9053.JPG",
+    "title": "Birthday Prep",
+    "date": "2024-05-10",
+    "description": "Getting ready for her first birthday party!"
+  },
+  {
+    "id": 27,
+    "image": "/images/IMG_9069.JPG",
+    "title": "Cake Time",
+    "date": "2024-05-15",
+    "description": "Her first birthday cake! She made quite a mess."
+  },
+  {
+    "id": 28,
+    "image": "/images/IMG_9080.JPG",
+    "title": "One Year Old",
+    "date": "2024-05-20",
+    "description": "Happy first birthday, Thea! You've grown so much."
+  },
+  {
+    "id": 29,
+    "image": "/images/IMG_9081.JPG",
+    "title": "Party Time",
+    "date": "2024-05-25",
+    "description": "Celebrating with family and friends. So much love!"
+  },
+  {
+    "id": 30,
+    "image": "/images/IMG_9111.JPG",
+    "title": "Growing Up",
+    "date": "2024-06-01",
+    "description": "She's getting so big and learning new things every day."
+  },
+  {
+    "id": 31,
+    "image": "/images/IMG_9124.JPG",
+    "title": "Little Explorer",
+    "date": "2024-06-05",
+    "description": "Always exploring and discovering new things."
+  },
+  {
+    "id": 32,
+    "image": "/images/IMG_9146.JPG",
+    "title": "Today's Joy",
+    "date": "2024-06-10",
+    "description": "Every day with Thea is a new adventure filled with joy."
+  }
+] 

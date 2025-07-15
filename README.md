@@ -1,46 +1,143 @@
-# Getting Started with Create React App
+# Thea's Photo Gallery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beautiful, responsive photo gallery website showcasing precious moments of Thea's journey. Built with React, TypeScript, and Tailwind CSS.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- ✨ Elegant horizontal scrolling timeline layout
+- 📱 Fully responsive design for all devices
+- 🎨 Soft, pastel color scheme (baby pink, lavender, mint)
+- ✨ Smooth animations and transitions
+- 📸 Easy photo management via JSON file
+- 🗓️ Chronological sorting by date
+- 💝 Beautiful header and footer with personal touches
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Node.js (version 14 or higher)
+- npm or yarn
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone or download this project
+2. Navigate to the project directory:
+   ```bash
+   cd thea-photos
+   ```
 
-### `npm run build`
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Adding New Photos
 
-### `npm run eject`
+To add new photos to the gallery:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. **Add the image file** to the `public/images/` folder
+2. **Update the `public/photos.json` file** with the new photo information:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```json
+{
+  "id": 33,
+  "image": "/images/your-new-photo.jpg",
+  "title": "Your Photo Title",
+  "date": "2024-06-15",
+  "description": "A beautiful description of this moment"
+}
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Photo JSON Structure
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Each photo entry should include:
 
-## Learn More
+- `id`: Unique identifier (number)
+- `image`: Path to the image file (relative to public folder)
+- `title`: Display title for the photo
+- `date`: Date in YYYY-MM-DD format
+- `description`: Short description or memory
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Customization
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Colors
+
+The color scheme can be customized in `tailwind.config.js`:
+
+```javascript
+colors: {
+  'baby-pink': '#FFB6C1',
+  'lavender': '#E6E6FA',
+  'mint': '#F0FFF0',
+  'off-white': '#FDFDFD',
+  'soft-blue': '#E0F2FE',
+  'peach': '#FFE4E1',
+}
+```
+
+### Header and Footer
+
+Edit the following files to customize the header and footer:
+- `src/components/Header.tsx` - Change Thea's name and subtitle
+- `src/components/Footer.tsx` - Modify the footer message
+
+## Building for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+This creates an optimized build in the `build` folder that can be deployed to any static hosting service.
+
+## Deployment
+
+The built application can be deployed to:
+- Netlify
+- Vercel
+- GitHub Pages
+- Any static hosting service
+
+## Technologies Used
+
+- **React 18** - UI framework
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Styling
+- **Intersection Observer API** - Scroll animations
+- **CSS Grid & Flexbox** - Layout
+
+## File Structure
+
+```
+thea-photos/
+├── public/
+│   ├── images/          # Photo files
+│   └── photos.json      # Photo metadata
+├── src/
+│   ├── components/      # React components
+│   ├── types/          # TypeScript interfaces
+│   ├── App.tsx         # Main app component
+│   └── index.css       # Global styles
+└── tailwind.config.js  # Tailwind configuration
+```
+
+## Contributing
+
+This is a personal project, but feel free to use it as a template for your own photo gallery!
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Made with 💕 for Thea
